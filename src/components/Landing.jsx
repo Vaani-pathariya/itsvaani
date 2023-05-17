@@ -6,6 +6,7 @@ import github from "../assets/github.png";
 import blog from "../assets/blog.png"
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
+import Projects from "./Projects";
 const Landing=()=>{
     return(
         <>
@@ -32,6 +33,7 @@ const Landing=()=>{
         < div className="skills-back">
             <Skills />
         </div>
+        <Projects/>
         </>
     )
 }

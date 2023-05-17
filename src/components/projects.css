@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.Projects {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+.Projects h1{
+    margin: 0;
+    padding-top: 5%;
+}
+.Projects h2{
+    margin: 0;
+    margin-top: 30px;
+}
