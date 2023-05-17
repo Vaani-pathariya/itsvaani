@@ -8,14 +8,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing/>}></Route>
       </Routes>
-      <div>
-                <div>
-                    <h1>Welcome to my Portfolio</h1>
-                </div>
-                <div>
-
-                </div>
-            </div>
     </div>
     </BrowserRouter>
   );

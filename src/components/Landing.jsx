@@ -4,8 +4,11 @@ import linkedin from "../assets/linkedin.png";
 import twitter from "../assets/twitter.png";
 import github from "../assets/github.png";
 import blog from "../assets/blog.png"
+import Portfolio from "./Portfolio";
+import Skills from "./Skills";
 const Landing=()=>{
     return(
+        <>
         <div className="landing">
             <nav>
                 <div className="nav-logo">
@@ -14,9 +17,9 @@ const Landing=()=>{
                 </div>
                 <div>
                     <ul className="nav-ul">
-                        <li>HOME</li>
-                        <li>SKILLS</li>
-                        <li>PROJECTS</li>
+                        <li className="nav-text">HOME</li>
+                        <li className="nav-text">SKILLS</li>
+                        <li className="nav-text">PROJECTS</li>
                         <li><img src={github} className="contact"></img></li>
                         <li><img src={linkedin} className="contact"></img></li>
                         <li><img src={twitter} className="contact"></img></li>
@@ -24,7 +27,12 @@ const Landing=()=>{
                     </ul>
                 </div>
             </nav>
+            <Portfolio/>
         </div>
+        < div className="skills-back">
+            <Skills />
+        </div>
+        </>
     )
 }
 export default Landing;

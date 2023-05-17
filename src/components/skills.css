@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.skill-display{
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 40px;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(13, 13, 13);
+    padding-bottom: 2rem;
+}
+.skill-display h2 img{
+    height: 40px;
+    margin : 15px 5px;
+}
