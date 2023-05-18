@@ -16,49 +16,42 @@
 .landing h1{
     font-size: 30px;
 }
-.nav-logo img{
-    margin-top: -5%;
-    height: 50px;
+a:-webkit-any-link{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
 }
-.nav-logo{
-    margin: auto 0;
+nav{
+    background-color: white;
+    width: 40%;
+    position: fixed;
+    margin-left: 30%;
+    color: black;
+    bottom: 5rem;
+    border-radius: 20px;
+    height: 4rem;
 }
-.nav-logo{
-    margin-top: -0.3%;
+nav ul {
     display: flex;
+    text-align: center;
+    margin-top: 4vh;
+    margin-left: -5%;
+    margin-right: 5%;
 }
-.nav-logo h1{
-    margin-top: 6%;
-    margin-bottom: 0;
-    font-size: 20px;
-
+nav ul li{
+    list-style-type: none;
+    margin: 0 auto ;
 }
 .skills-back{
-    background: linear-gradient(to right bottom ,purple , black);
+    background: linear-gradient(to right bottom ,rgb(114, 92, 240) , rgb(209, 155, 69));
     padding-top: 100px;
     width: 100%;
-    height: 135vh;
+    padding-bottom: 50px;
 }
-.landing nav{
-    padding:  30px 20px ;
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    height: 2rem;
-    position: fixed;
-    width: 98%;
-}
-.nav-ul{
-    display: flex;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-.nav-text{
-    margin-top: 1%;
-}
-.nav-ul li{
-    list-style: none;
-    font-size: 22px;
-    margin-left: 20px;
+.skills-back h1{
+    margin-top: -2%;
+    margin-left: 7%;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 2rem;
 }

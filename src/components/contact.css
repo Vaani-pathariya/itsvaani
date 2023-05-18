@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.contacts{
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    background: linear-gradient(pink , black);
+    justify-content: space-between;
+    height: 70vh;
+    padding :2rem;
+}
+
+.right-contact{
+    margin: 0 auto ;
+    width: 25%;
+    text-align: center;
+}
+.right-contact h3{
+    background-color: black;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+}
+.mail{
+    color: white;
+}
+.github{
+    color: rgb(149, 176, 186);
+    font-size: 18px;
+}
+.twitter{
+    color: rgb(126, 126, 226);
+    font-size: 18px;
+}
+.blog{
+    color: white;
+    font-size: 18px;
+}
+.linkedin{
+    color: aqua;
+    font-size: 18px;
+}

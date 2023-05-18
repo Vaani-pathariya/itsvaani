@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.projectinfo{
+    background: linear-gradient(rgb(255, 255, 255),rgb(110, 34, 223));
+    height: 100vh;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+.inner-img{
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    margin: auto 3rem;
+    border-radius: 5px;
+}
+.pro-text{
+    width: 50%;
+}
+.projectinfo div{
+    margin: 5rem 1rem;
+}
+.pro-text h1{
+    font-weight: bold;
+}
+.pro-text h2{
+    color: rgb(77, 24, 128);
+}
+.pro-text button{
+    margin-left: 25%;
+    padding: 20px;
+    font-size: 20px;
+    color: blue;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    width: 50%;
+}

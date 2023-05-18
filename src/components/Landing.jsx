@@ -1,39 +1,34 @@
 import "./landing.css" ;
-import logo from "../assets/logo.png"
-import linkedin from "../assets/linkedin.png";
-import twitter from "../assets/twitter.png";
-import github from "../assets/github.png";
-import blog from "../assets/blog.png"
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import { HashLink } from "react-router-hash-link";
+import Contact from "./Contact";
 const Landing=()=>{
     return(
         <>
-        <div className="landing">
+        <div className="landing" id="home">
             <nav>
-                <div className="nav-logo">
-                <img src={logo}></img>
-                <h1>ITSVAANI</h1>
-                </div>
-                <div>
-                    <ul className="nav-ul">
-                        <li className="nav-text">HOME</li>
-                        <li className="nav-text">SKILLS</li>
-                        <li className="nav-text">PROJECTS</li>
-                        <li><img src={github} className="contact"></img></li>
-                        <li><img src={linkedin} className="contact"></img></li>
-                        <li><img src={twitter} className="contact"></img></li>
-                        <li><img src={blog} className="contact"></img></li>
-                    </ul>
-                </div>
+                <ul>
+                    <li><HashLink to="#home">Home</HashLink></li>
+                    <li><HashLink to="#skills">Skills</HashLink></li>
+                    <li><HashLink to="#projects">Projects</HashLink></li>
+                    <li><HashLink to="#contact">Contact</HashLink></li>
+                </ul>
             </nav>
             <Portfolio/>
         </div>
-        < div className="skills-back">
+        < div className="skills-back" id="skills">
+            <h1>SKILLS</h1>
             <Skills />
         </div>
-        <Projects/>
+        <div id="projects">
+        <Projects />
+        </div>
+        <div id="contact">
+        <Contact />
+        </div>
+        
         </>
     )
 }
