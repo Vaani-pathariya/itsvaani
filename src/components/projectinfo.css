@@ -8,7 +8,6 @@
 .inner-img{
     width: 50%;
     height: 80%;
-    object-fit: cover;
     margin: auto 3rem;
     border-radius: 5px;
 }
