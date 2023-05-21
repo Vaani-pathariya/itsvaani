@@ -45,6 +45,8 @@
     }
     .inner-img {
         width: 80%;
+        margin-right: -5%;
+        margin-top: 1rem;
     }
     .pro-text{
         width: 85%;

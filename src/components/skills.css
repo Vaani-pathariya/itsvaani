@@ -17,4 +17,17 @@
     margin: 10px 5px;
     padding-top: 10px;
 }
+@media (max-width: 450px){
+    .skill-display{
+        display: block;
+        margin: none;
+        width: 65%;
+    }
+}
+@media(max-width : 740px) and (min-width : 450px){
+    .skill-display{
+        display: block;
+    }
+
+}
 

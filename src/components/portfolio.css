@@ -26,3 +26,11 @@
 .changing-text{
     font-size: 3rem !important;
 }
+@media (max-width : 450px) {
+        .main-right{
+            display: none;
+        }
+        .main-left{
+            width: 100%;
+        }
+}
