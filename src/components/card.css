@@ -29,10 +29,14 @@ a{
     text-decoration: none;
 }
 .absence h1{
-    padding-top: 5rem;
     font-size: 50px;
 }
 .absence h2{
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
+}
+@media (max-width : 800px){
+    .mapped{
+        display: block;
+    }
 }

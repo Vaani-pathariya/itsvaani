@@ -4,13 +4,12 @@
     display: flex;
     background: linear-gradient(pink , black);
     justify-content: space-between;
-    height: 70vh;
+    height: 20rem;
     padding :2rem;
 }
 
 .right-contact{
     margin: 0 auto ;
-    width: 25%;
     text-align: center;
 }
 .right-contact h3{
