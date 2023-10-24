@@ -1,6 +1,6 @@
 import { Routes,Route } from "react-router-dom";
-import Landing from "./pages/Landing";
-import './app.css'
+import Landing from "./pages/Landing.js";
+import './css/app.css'
 function App() {
   return (
     <div className="App">
