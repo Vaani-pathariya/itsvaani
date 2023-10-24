@@ -15,7 +15,7 @@ const Connect=()=>{
             <div className="email">vaanipathariya@gmail.com</div>
             <div className="flex images">
             <Link to="https://github.com/Vaani-pathariya"><img src={github} className="image_di"></img></Link>
-            <Link><img src={linkedin} className="image_di"></img></Link>
+            <Link to="https://www.linkedin.com/in/vaani-pathariya/"><img src={linkedin} className="image_di"></img></Link>
             <Link><img src={leetcode} className="image_di"></img></Link>
             <Link><img src={twitter} className="image_di"></img></Link>
             </div>

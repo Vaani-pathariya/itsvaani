@@ -119,9 +119,34 @@
 .image_di{
     margin: 10px;
 }
+.content{
+    width: 80%;
+    margin: auto;
+}
+.linking{
+    background-color: #dec9c9;
+    margin-top: 40px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: black;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.below-textp{
+    margin-top: 35px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:  rgb(153, 152, 151);
+}
 .images{
     width: fit-content;
     margin: auto;
+}
+.sizP{
+    font-size: 35px;
 }
 .images a img{
     height: 35px;
