@@ -21,7 +21,8 @@
     font-weight: bold;
     color: black;
     font-size: 20px;
-    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .changed-font{
     font-family: 'New';

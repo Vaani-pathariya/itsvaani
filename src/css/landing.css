@@ -105,3 +105,24 @@
     background-size: cover;
     padding-bottom: 70px;
 }
+.email{
+    border: black solid 2px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.image_di{
+    margin: 10px;
+}
+.images{
+    height: 50px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
