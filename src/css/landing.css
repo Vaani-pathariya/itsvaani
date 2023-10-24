@@ -16,9 +16,13 @@
     color:  rgb(153, 152, 151);
 }
 .below-text-black{
-    margin-top: 45px;
+    margin-top: 23px;
     font-size: 18px;
     color: black;
+}
+.time{
+    width: 67%;
+    margin-left: 24%;
 }
 .tab{
     color: black;
@@ -35,6 +39,16 @@
 }
 .skills{
     margin-top: 5px;
+}
+.sizo{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.connect-tab{
+    padding-top: 50px;
+    text-align: center;
+    background-image: url("../assets/pic.avif");
+    background-size: cover;
 }
 .card{
     padding :2px;
@@ -57,10 +71,37 @@
     padding: 0 10px;
     font-size: 19px;
 }
+.about{
+    margin-top: 100px;
+    padding-bottom: 70px;
+}
+.less-wide{
+    padding-top: 20px;
+    margin: auto;
+    width: 70%;
+}
+.bigger{
+    font-size: 20px;
+}
+.about-me{
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 40px;
+    width: 40%;
+    padding-bottom: 30px;
+    margin: 20px auto ;
+    border: rgb(201, 193, 193) solid 5px;
+}
+.my-pic{
+    height: 400px;
+    margin-top: 120px;
+    margin-left: 100px;
+    border:#dec9c9 30px solid; 
+}
 .achieve{
     padding-top: 30px;
     margin-top: 100px;
     background-image: url('../assets/skin.jpg');
-    height: 100vh;
     background-size: cover;
+    padding-bottom: 70px;
 }

@@ -4,6 +4,8 @@ import "../css/fonts.css"
 import "../css/landing.css"
 import test from "../assets/wall.jpg"
 import Achievement from "./Achievements";
+import About from "./About";
+import Connect from "./Connect";
 const Landing=()=>{
     return (
         <div className="landing">
@@ -52,6 +54,8 @@ const Landing=()=>{
                 </div>             
             </div>
             <Achievement/>
+            <About/>
+            <Connect/>
         </div>
     )
 }
