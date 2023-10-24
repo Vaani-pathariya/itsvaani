@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import "../css/fonts.css"
 import "../css/landing.css"
 import test from "../assets/wall.jpg"
+import Achievement from "./Achievements";
 const Landing=()=>{
     return (
         <div className="landing">
@@ -19,16 +20,16 @@ const Landing=()=>{
                 <div className="flex">
                 <div className="card">
                     <img src={test}></img>
-                    <div className="new-font black top-margin flex space">
+                    <div className="new-font  top-margin  space">
                         <div className="bold">Title</div>
-                        <div>Skills</div>
+                        <div className="skills">Skills</div>
                     </div>
                 </div>   
                 <div className="card">
                     <img src={test}></img>
-                    <div className="new-font black top-margin flex space">
+                    <div className="new-font  top-margin space">
                         <div className="bold">Title</div>
-                        <div>Skills</div>
+                        <div className="skills">Skills</div>
                     </div>
                 </div>   
                 </div>      
@@ -36,20 +37,21 @@ const Landing=()=>{
                 <div className="flex">
                 <div className="card">
                     <img src={test}></img>
-                    <div className="new-font black top-margin flex space">
+                    <div className="new-font black top-margin  space">
                         <div className="bold">Title</div>
-                        <div>Skills</div>
+                        <div className="skills">Skills</div>
                     </div>
                 </div>   
                 <div className="card">
                     <img src={test}></img>
-                    <div className="new-font black top-margin flex space">
+                    <div className="new-font black top-margin  space">
                         <div className="bold">Title</div>
-                        <div>Skills</div>
+                        <div className="skills">Skills</div>
                     </div>
                 </div>   
                 </div>             
             </div>
+            <Achievement/>
         </div>
     )
 }
