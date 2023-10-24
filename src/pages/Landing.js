@@ -23,7 +23,7 @@ const Landing=()=>{
 
                 <div className="flex">
                 <div className="card">
-                    <Link><img src={test}></img></Link>
+                    <Link to="/p1"><img src={test}></img></Link>
                     <div className="new-font  top-margin  space">
                         <div className="bold">Title</div>
                         <div className="skills">Skills</div>
