@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;padding: 0;
+}
+.distancing{
+    margin: 20px;
+}
+.connect{
+    margin: 12px;
+    background-color: #dec9c9;
+    color: black;
+    border-radius: 20px;
+    padding: 8px 15px;
+}

@@ -1,0 +1,49 @@
+.sizing{
+    text-align: center;
+    margin-top: 90px;
+}
+.siz{
+    font-size: 80px;
+}
+.above-text{
+    margin: 35px;
+    font-size: 18px;
+    color:  rgb(153, 152, 151);
+}
+.below-text{
+    margin-top: 45px;
+    font-size: 18px;
+    color:  rgb(153, 152, 151);
+}
+.tab{
+    color: black;
+    margin: auto;
+    margin-top: 45px;
+    border-radius: 25px;
+    background-color: #dec9c9;
+    padding: 10px 15px;
+    width: fit-content;
+    font-weight: bolder;
+}
+.flex{
+    display: flex;
+}
+.card{
+    background-color: #dec9c9;
+    padding :10px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.black{
+    color: black;
+}
+.top-margin{
+    margin-top: 20px;
+}
+.bold{
+    font-weight: bolder;
+}
+.space{
+    justify-content: space-between;
+}

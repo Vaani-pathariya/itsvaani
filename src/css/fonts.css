@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@font-face {
+    font-family: 'New'; /* Name the font family */
+    src: url('/KimberlyAsleyDemoRegular.ttf') format('truetype'); /* Path to your TTF font file */
+}
+  
+.simple{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.changed-font{
+    font-family: 'New';
+    color: white;
+}
+.new-font{
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
