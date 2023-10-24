@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "../css/fonts.css"
 import "../css/landing.css"
@@ -19,17 +20,18 @@ const Landing=()=>{
                 <div className="new-font tab">Explore my Projects</div>
             </div>
             <div className="projects">
+
                 <div className="flex">
                 <div className="card">
-                    <img src={test}></img>
+                    <Link><img src={test}></img></Link>
                     <div className="new-font  top-margin  space">
                         <div className="bold">Title</div>
                         <div className="skills">Skills</div>
                     </div>
                 </div>   
                 <div className="card">
-                    <img src={test}></img>
-                    <div className="new-font  top-margin space">
+                    <Link><img src={test}></img></Link>
+                    <div className="new-font  top-margin  space">
                         <div className="bold">Title</div>
                         <div className="skills">Skills</div>
                     </div>
@@ -38,15 +40,15 @@ const Landing=()=>{
                 ////
                 <div className="flex">
                 <div className="card">
-                    <img src={test}></img>
-                    <div className="new-font black top-margin  space">
+                    <Link><img src={test}></img></Link>
+                    <div className="new-font  top-margin  space">
                         <div className="bold">Title</div>
                         <div className="skills">Skills</div>
                     </div>
                 </div>   
                 <div className="card">
-                    <img src={test}></img>
-                    <div className="new-font black top-margin  space">
+                    <Link><img src={test}></img></Link>
+                    <div className="new-font  top-margin  space">
                         <div className="bold">Title</div>
                         <div className="skills">Skills</div>
                     </div>

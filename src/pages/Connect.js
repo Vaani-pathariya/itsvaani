@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../css/landing.css"
 import arrow from "../assets/icons8-down-arrow-100.png"
 import leetcode from "../assets/leetcode.svg"
@@ -13,10 +14,10 @@ const Connect=()=>{
             <div className="changed-font-black sizo">Lets connect and work together</div>
             <div className="email">vaanipathariya@gmail.com</div>
             <div className="flex images">
-            <img src={github} className="image_di"></img>
-            <img src={linkedin} className="image_di"></img>
-            <img src={leetcode} className="image_di"></img>
-            <img src={twitter} className="image_di"></img>
+            <Link to="https://github.com/Vaani-pathariya"><img src={github} className="image_di"></img></Link>
+            <Link><img src={linkedin} className="image_di"></img></Link>
+            <Link><img src={leetcode} className="image_di"></img></Link>
+            <Link><img src={twitter} className="image_di"></img></Link>
             </div>
         </div>
     )
