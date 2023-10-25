@@ -112,7 +112,25 @@ const Achievement=()=>{
                     </div>
                     <div>
                     <ol style={{ listStyleType: 'circle' }}>
+                    <li className="below-text-black new-font bold">Earned Javascript Algorithm and Data structures certification</li>
+                    </ol>
+                    <hr></hr>
+                    </div>
+                    <div>
+                    <ol style={{ listStyleType: 'circle' }}>
                     <li className="below-text-black new-font bold">Participated in Google Kickstart round F and secured 5369 rank</li>
+                    </ol>
+                    <hr></hr>
+                    </div>
+                    <div>
+                    <ol style={{ listStyleType: 'circle' }}>
+                    <li className="below-text-black new-font bold">Earned Fundamentals of Digital Marketing Certificate by Google</li>
+                    </ol>
+                    <hr></hr>
+                    </div>
+                    <div>
+                    <ol style={{ listStyleType: 'circle' }}>
+                    <li className="below-text-black new-font bold">Earned Explore ML with crowdsource certification by Google</li>
                     </ol>
                     <hr></hr>
                     </div>

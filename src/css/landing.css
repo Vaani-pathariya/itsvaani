@@ -34,6 +34,9 @@
     width: fit-content;
     font-weight: bolder;
 }
+.top-center{
+    padding-top: 40px;
+}
 .flex{
     display: flex;
 }
@@ -53,12 +56,12 @@
 .card{
     padding :2px;
     margin: auto;
-    margin-top: 40px;
     text-align: center;
     border-radius: 20px;
 }
-.card img{
+.card a img{
     border-radius: 20px;
+    width: 600px;
 }
 .top-margin{
     margin-top: 20px;
