@@ -19,18 +19,6 @@ const Achievement=()=>{
                     </div>
                     <div>
                     <ol style={{ listStyleType: 'circle' }}>
-                    <li className="below-text-black new-font bold">Got promoted to Alpha Microsoft Learn Student Ambassador</li>
-                    </ol>
-                    <hr></hr>
-                    </div>
-                    <div>
-                    <ol style={{ listStyleType: 'circle' }}>
-                    <li className="below-text-black new-font bold">Got accepted as Microsoft Learn Student Ambassador</li>
-                    </ol>
-                    <hr></hr>
-                    </div>
-                    <div>
-                    <ol style={{ listStyleType: 'circle' }}>
                     <li className="below-text-black new-font bold">Maintainer of Hacktoberfest repository 'Foss Events 2.0' under GDSC JSSATEN organisation</li>
                     </ol>
                     <hr></hr>
@@ -43,7 +31,7 @@ const Achievement=()=>{
                     </div>
                     <div>
                     <ol style={{ listStyleType: 'circle' }}>
-                    <li className="below-text-black new-font bold">Got accepted as a Web Developer at GDSC JSSATEN</li>
+                    <li className="below-text-black new-font bold">Got promoted to Alpha Microsoft Learn Student Ambassador</li>
                     </ol>
                     <hr></hr>
                     </div>
@@ -56,6 +44,18 @@ const Achievement=()=>{
                     <div>
                     <ol style={{ listStyleType: 'circle' }}>
                     <li className="below-text-black new-font bold">My team 'Tridev' got selected as Top 30 winner nation wide in 'Samsung Solve for Tomorrow Season2'</li>
+                    </ol>
+                    <hr></hr>
+                    </div>
+                    <div>
+                    <ol style={{ listStyleType: 'circle' }}>
+                    <li className="below-text-black new-font bold">Got accepted as Microsoft Learn Student Ambassador</li>
+                    </ol>
+                    <hr></hr>
+                    </div>
+                    <div>
+                    <ol style={{ listStyleType: 'circle' }}>
+                    <li className="below-text-black new-font bold">Got accepted as a Web Developer at GDSC JSSATEN</li>
                     </ol>
                     <hr></hr>
                     </div>
