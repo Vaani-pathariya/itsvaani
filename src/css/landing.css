@@ -42,6 +42,7 @@
 }
 .skills{
     margin-top: 5px;
+    font-style: italic;
 }
 .sizo{
     font-size: 50px;
@@ -128,6 +129,10 @@
 }
 .flex_2{
     justify-content: space-around;
+}
+.project-img{
+    border-radius: 15px;
+    width: 85%;
 }
 .linking{
     background-color: #dec9c9;
