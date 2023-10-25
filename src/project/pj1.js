@@ -9,7 +9,10 @@ const P1=()=>{
             <div className="sizing">
                 <div className="changed-font sizP">Project Name</div>
                 <div className="below-textp new-font">Tagline of the project</div>
+                <div className="flex flex_2">
                 <img src={test}></img>
+                <img src={test}></img>
+                </div>
                 <div className="below-textp new-font content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
                 <div className="new-font linking">Link to the project: HERE</div>
             </div>

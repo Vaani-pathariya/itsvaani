@@ -123,6 +123,9 @@
     width: 80%;
     margin: auto;
 }
+.flex_2{
+    justify-content: space-around;
+}
 .linking{
     background-color: #dec9c9;
     margin-top: 40px;
