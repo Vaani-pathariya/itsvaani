@@ -9,9 +9,11 @@ const P8=()=>{
             <Navbar/>
             <div className="sizing">
                 <div className="changed-font sizP">HOLA</div>
-                <div className="below-textp new-font">Tagline of the project</div>
+                <div className="below-textp new-font">Connecting Generations, Building Futures: Hola - Your JSS Alumni Network</div>
                 <img src={test} className="project-img"></img>
-                <div className="below-textp new-font content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+                <div className="below-textp new-font content">Introducing "Hola," the bridge that unites the past and the present at JSS College. This dynamic project, meticulously crafted with React, MongoDB, Express, and Node.js, serves as a digital hub where current students and cherished alumni come together. <br></br>
+
+On Hola, users can interact with ease, express their appreciation through likes and comments, and share their journey through a shared feed. It's more than just a platform; it's a living connection to the legacy of our institution. Join us in celebrating the bonds of academia, fostering mentorship, and building a future that's shaped by the wisdom and experience of our esteemed alumni. Welcome to Hola, your gateway to a vibrant college community that stands the test of time.</div>
                 <Link to="https://github.com/Vaani-pathariya/Hola"><div className="new-font linking">Link to the project: HERE</div></Link>
             </div>
         </div>

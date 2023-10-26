@@ -9,9 +9,10 @@ const P7=()=>{
             <Navbar/>
             <div className="sizing">
                 <div className="changed-font sizP">AEROFLY</div>
-                <div className="below-textp new-font">Tagline of the project</div>
+                <div className="below-textp new-font">Smooth Skies Ahead: Aerofly - Your Flight Delay Predictor and Peace of Mind Companion.</div>
                 <img src={test} className="project-img"></img>
-                <div className="below-textp new-font content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+                <div className="below-textp new-font content">Introducing "Aerofly," your guardian of hassle-free travel. In a world where flight delays can disrupt the best-laid plans, our innovative project, powered by Machine Learning and the Scikit-learn library, has your back. Aerofly uses predictive algorithms to foresee potential flight delays and promptly notifies passengers, allowing them to plan and adapt with ease.<br></br>
+Built with Python and React, our user-friendly interface ensures that you're always one step ahead, so you can enjoy your journey with confidence. Say goodbye to airport anxieties and hello to the peace of mind that comes with Aerofly. Welcome to the future of stress-free travel.</div>
                 <Link to="https://github.com/Vaani-pathariya/Aerofly"><div className="new-font linking">Link to the project: HERE</div></Link>
             </div>
         </div>

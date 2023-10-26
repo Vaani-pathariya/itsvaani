@@ -9,9 +9,11 @@ const P9=()=>{
             <Navbar/>
             <div className="sizing">
                 <div className="changed-font sizP">SCAM SHIELD</div>
-                <div className="below-textp new-font">Tagline of the project</div>
+                <div className="below-textp new-font">Guarding Your Cyber Frontiers: Scam Shield - Your Link Integrity Defender</div>
                 <img src={test} className="project-img"></img>
-                <div className="below-textp new-font content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+                <div className="below-textp new-font content">Introducing "Scam Shield," your vigilant guardian in the digital realm. Crafted with the power of React, machine learning, and the Scikit-learn library, this innovative project is designed to ensure your online safety.<br></br>
+
+Scam Shield empowers you to submit links, which are then meticulously scanned and assessed for potential piracy or fraudulent content. In a world where cyber threats are ever-present, our platform acts as your digital shield, offering you peace of mind and security. Whether you're a cautious internet user or an organization safeguarding your online presence, Scam Shield is your indispensable companion in the battle against cyber scams. Welcome to a safer and more secure online experience with Scam Shield.</div>
                 <Link to="https://github.com/Vaani-pathariya/kavach"><div className="new-font linking">Link to the project: HERE</div></Link>
             </div>
         </div>

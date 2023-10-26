@@ -52,7 +52,7 @@ const Landing=()=>{
                     <Link to="/p3"><img src={p2}></img></Link>
                     <div className="new-font  top-margin  space">
                         <div className="bold">THERAPY PAL</div>
-                        <div className="skills">React, Python, Machine Learning, OpenCV, Scikit Learn</div>
+                        <div className="skills">React, Python, Machine Learning, OpenCV, Scikit Learn, Android, Kotlin</div>
                     </div>
                 </div>   
                 <div className="card">
