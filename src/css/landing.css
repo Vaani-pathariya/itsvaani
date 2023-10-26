@@ -193,4 +193,7 @@
     .connect{
         height: fit-content;
     }
+    .siz{
+        font-size: 40px;
+    }
 }
