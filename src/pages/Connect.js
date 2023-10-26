@@ -8,7 +8,7 @@ import twitter from "../assets/twitter.png"
 import linkedin from "../assets/linkedin.png"
 const Connect=()=>{
     return (
-        <div className="connect-tab">
+        <div className="connect-tab" id="connect">
             <div className="simple-black-connect">READY TO TRANSFORM YOUR BUISNESS ?</div>
             <img src={arrow}></img>
             <div className="changed-font-black sizo">Lets connect and work together</div>

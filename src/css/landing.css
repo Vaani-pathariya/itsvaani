@@ -197,3 +197,8 @@
         font-size: 40px;
     }
 }
+@media only screen and (max-width: 515px) {
+    .navbar-min-setting{
+        display: block;
+    }
+}

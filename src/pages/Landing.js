@@ -26,7 +26,7 @@ const Landing=()=>{
                 <div className="new-font above-text">EXPLORING TECH</div>
                 <div className="changed-font siz">Full Stack Web Development<br></br>Machine Learning</div>
                 <div className="below-text new-font">Crafting Digital Worlds, One Line of Code at a Time.</div>
-                <div className="new-font tab">Explore my Projects</div>
+                <div className="new-font tab" id="projects">Explore my Projects</div>
             </div>
             <div className="projects">
 
@@ -112,8 +112,8 @@ const Landing=()=>{
                 </div>   
                 </div>             
             </div>
-            <Achievement/>
-            <About/>
+            <Achievement />
+            <About />
             <Connect/>
         </div>
     )

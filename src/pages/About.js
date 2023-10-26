@@ -4,7 +4,7 @@ import vaani from "../assets/vaani_2image (1).jpg"
 import "../css/landing.css"
 const About=()=>{
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="sizing">
                 <div className="new-font above-text bold">Hey! I am Vaani Pathariya</div>
                 <div className="changed-font siz">Code Is Poetry and I am the Wordsmith</div>
