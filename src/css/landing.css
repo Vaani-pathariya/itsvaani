@@ -176,11 +176,21 @@
         width: 80%;
     }
     .container-img{
-        background-color: aqua;
         width: fit-content;
         margin: auto;
     }
     .my-pic{
         margin-left: 0;
+        height: 310px;
+    }
+    .navbar{
+        width: 98.7vw;
+    }
+    .distancing{
+        margin: 20px 0;
+        text-align: center;
+    }
+    .connect{
+        height: fit-content;
     }
 }
