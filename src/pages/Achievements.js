@@ -13,7 +13,7 @@ const Achievement=()=>{
                 <div className="time">
                     <div>
                     <ol style={{ listStyleType: 'circle' }}>
-                    <li className="below-text-black new-font bold">Got selected in top 67 team out of 20,000 registrations in ICC | NIUM Next in 2.0 Global Cricket Hackathon</li>
+                    <li className="below-text-black new-font bold">Got selected in top 67 team out of 20,000 registrations worldwide in ICC | NIUM Next in 2.0 Global Cricket Hackathon</li>
                     </ol>
                     <hr></hr>
                     </div>

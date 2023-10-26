@@ -9,9 +9,13 @@ const P5=()=>{
             <Navbar/>
             <div className="sizing">
                 <div className="changed-font sizP">ESUMMIT WEBSITE</div>
-                <div className="below-textp new-font">Tagline of the project</div>
+                <div className="below-textp new-font">"Elevate Your Vision, Ignite Your Future: JSS Esummit 2023"</div>
                 <img src={test} className="project-img"></img>
-                <div className="below-textp new-font content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+                <div className="below-textp new-font content">Welcome to the virtual gateway of innovation and inspiration, the College Esummit 2023! We're proud to present this dynamic platform that embodies the spirit of entrepreneurship and creativity. Powered by the cutting-edge technology of React, our website not only provides information but also offers seamless email integration and secure payment options, ensuring a smooth and engaging experience for our participants and attendees.<br></br>
+
+Esummit 2023 is where brilliant minds converge, ideas flourish, and future leaders are born. With a blend of captivating speakers, hands-on workshops, and thought-provoking discussions, this digital hub serves as the nucleus of innovation and entrepreneurial growth.<br></br>
+
+Join us on this exciting journey of ideation, collaboration, and progress. Let JSS Esummit 2023 be your compass to navigate the ever-evolving landscape of entrepreneurship, and together, let's shape a future full of opportunities and achievements.</div>
                 <Link to="https://github.com/Vaani-pathariya/ESummit23"><div className="new-font linking">Link to the project: HERE</div></Link>
             </div>
         </div>

@@ -9,9 +9,9 @@ const P4=()=>{
             <Navbar/>
             <div className="sizing">
                 <div className="changed-font sizP">AMAZON CLONE</div>
-                <div className="below-textp new-font">Tagline of the project</div>
+                <div className="below-textp new-font">Your Prime Choice: A Clone of Convenience</div>
                 <img src={test} className="project-img"></img>
-                <div className="below-textp new-font content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+                <div className="below-textp new-font content">Introducing our remarkable project, a meticulously crafted clone of the renowned Amazon site. Welcome to "Your Prime Choice," a platform that mirrors the convenience, variety, and user-friendly experience that Amazon offers. Our goal is to provide users with an authentic and familiar shopping experience, ensuring that they can find their favorite products and discover new ones with ease. With a focus on delivering exceptional user satisfaction, we've recreated the magic of Amazon for your convenience. Explore, shop, and enjoy the seamless experience at "Amazon" today.</div>
                 <Link to="https://github.com/Vaani-pathariya/amazon-clone"><div className="new-font linking">Link to the project: HERE</div></Link>
             </div>
         </div>

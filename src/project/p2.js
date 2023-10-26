@@ -9,9 +9,11 @@ const P2=()=>{
             <Navbar/>
             <div className="sizing">
                 <div className="changed-font sizP">ISLIFE</div>
-                <div className="below-textp new-font">Tagline of the project</div>
+                <div className="below-textp new-font">Bridging the communication gap between ISL users and non-ISL users</div>
                 <img src={test} className="project-img"></img>
-                <div className="below-textp new-font content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+                <div className="below-textp new-font content">Introducing "ISLife" - Empowering ISL Users<br></br>
+
+"ISLife" is a groundbreaking project addressing the communication challenges faced by Indian Sign Language (ISL) users. It offers real-time conversion of spoken language to ISL, fostering seamless communication between ISL and non-ISL users. With a user-friendly mobile app (in development phase) and web platform, ISLife ensures easy access to its services, promoting inclusivity and recognition of ISL in society.</div>
                 <Link to="https://github.com/Vaani-pathariya/ASL-Project-SSFT"><div className="new-font linking">Link to the project: HERE</div></Link>
             </div>
         </div>

@@ -9,9 +9,10 @@ const P1=()=>{
             <Navbar/>
             <div className="sizing">
                 <div className="changed-font sizP">SEHAT</div>
-                <div className="below-textp new-font">Tagline of the project</div>
+                <div className="below-textp new-font">System for Enhanced Healthcare Assistance & Telemedicine</div>
                 <img src={test} className="project-img"></img>
-                <div className="below-textp new-font content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+                <div className="below-textp new-font content">Introducing "Sehat" - Bridging Rural Healthcare Gaps<br></br>
+In rural India, where over 65-70% of the population resides, access to healthcare remains a significant challenge, with just 13% having access and only 5% utilizing it. "Sehat" is a transformative Windows software that leverages Machine Learning, React, Vite, Firebase, and Python to connect remote communities with healthcare facilities. It breaks down geographical barriers, enhancing healthcare access and inclusivity, making a profound impact on rural healthcare in India.</div>
                 <Link to="https://www.youtube.com/watch?v=hSO4WCxVlyk"><div className="new-font linking">Link to the project: HERE</div></Link>
             </div>
         </div>
