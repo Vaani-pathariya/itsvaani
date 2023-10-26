@@ -165,3 +165,22 @@
     margin-top: 20px;
     padding-bottom: 20px;
 }
+@media only screen and (max-width: 1220px) {
+    .flex{
+        display: block;
+    }
+    .about-me{
+        width: 80%;
+    }
+    .card a img{
+        width: 80%;
+    }
+    .container-img{
+        background-color: aqua;
+        width: fit-content;
+        margin: auto;
+    }
+    .my-pic{
+        margin-left: 0;
+    }
+}

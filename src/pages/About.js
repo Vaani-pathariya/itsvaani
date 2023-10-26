@@ -10,7 +10,7 @@ const About=()=>{
                 <div className="changed-font siz">Code Is Poetry and I am the Wordsmith</div>
             </div>
             <div className="flex">
-                <div>
+                <div className="container-img">
                     <img src={vaani} className="my-pic"></img>
                 </div>
                 <div className="simple about-me">
