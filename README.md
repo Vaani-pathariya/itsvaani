@@ -1,1 +1,1 @@
-Access the site here : itsvaani.com
+Access the site here : itsvaani.tech
