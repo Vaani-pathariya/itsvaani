@@ -134,6 +134,9 @@
     border-radius: 15px;
     width: 85%;
 }
+.small-navbar{
+    display: none;
+}
 .linking{
     background-color: #dec9c9;
     margin-top: 40px;
@@ -183,22 +186,48 @@
         margin-left: 0;
         height: 310px;
     }
-    .navbar{
-        width: 98.7vw;
-    }
-    .distancing{
-        margin: 20px 0;
-        text-align: center;
-    }
     .connect{
         height: fit-content;
+        text-align: center;
     }
     .siz{
         font-size: 40px;
     }
 }
-@media only screen and (max-width: 515px) {
-    .navbar-min-setting{
-        display: block;
+@media only screen and (max-width: 700px) {
+    .navbar{
+        display: none;
+    }
+    .small-navbar{
+        display: contents;
+    }
+    .small-navbar img{
+        width: 20px;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+    }
+    .sizing{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .menu{
+        padding-top: 30px;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(81, 80, 80);
+        height: 100%;
+        font-size: 14px;
+    }
+    .connect{
+        width: fit-content;
+        margin: auto;
+        margin-top: 10px;
+        background-color: rgb(234, 171, 121);
+    }
+    .auto_spacing{
+        margin-top: 7px;
     }
 }

@@ -12,6 +12,7 @@
     color: black;
     border-radius: 20px;
     padding: 8px 15px;
+    height: fit-content;
 }
 .connect a{
     color: black;
