@@ -8,7 +8,6 @@ import P4 from "./project/p4.js";
 import P5 from "./project/p5.js";
 import P6 from "./project/p6.js";
 import P7 from "./project/p7.js";
-import P8 from "./project/p8.js";
 import P9 from "./project/p9.js";
 import P10 from "./project/p10.js";
 function App() {
@@ -23,7 +22,6 @@ function App() {
         <Route exact path="/p5"element={<P5/>}></Route>
         <Route exact path="/p6"element={<P6/>}></Route>
         <Route exact path="/p7"element={<P7/>}></Route>
-        <Route exact path="/p8"element={<P8/>}></Route>
         <Route exact path="/p9"element={<P9/>}></Route>
         <Route exact path="/p10"element={<P10/>}></Route>
       </Routes>

@@ -88,10 +88,10 @@ const Landing=()=>{
                     </div>
                 </div>   
                 <div className="card">
-                    <Link to="/p8"><img src={p3}></img></Link>
+                    <Link to="/p10"><img src={p10}></img></Link>
                     <div className="new-font  top-margin  space">
-                        <div className="bold">HOLA</div>
-                        <div className="skills">React, CSS, MongoDB, NodeJS</div>
+                        <div className="bold">LEVEL UP</div>
+                        <div className="skills">Android, Kotlin, NodeJS, Firebase</div>
                     </div>
                 </div>   
                 </div>         
@@ -101,13 +101,6 @@ const Landing=()=>{
                     <div className="new-font  top-margin  space">
                         <div className="bold">SCAM SHIELD</div>
                         <div className="skills">React, Machine Learning, Scikit Learn</div>
-                    </div>
-                </div>   
-                <div className="card">
-                    <Link to="/p10"><img src={p10}></img></Link>
-                    <div className="new-font  top-margin  space">
-                        <div className="bold">LEVEL UP</div>
-                        <div className="skills">Android, Kotlin, NodeJS, Firebase</div>
                     </div>
                 </div>   
                 </div>             
