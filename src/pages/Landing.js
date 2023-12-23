@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import "../css/fonts.css"
 import "../css/landing.css"
 import p1 from "../assets/sehat.png"
+import pgrkam from "../assets/pgrkam.png"
 import p2 from "../assets/p2.png"
 import p5 from "../assets/p5.png"
 import p4 from "../assets/p4.png"
@@ -32,17 +33,17 @@ const Landing=()=>{
 
                 <div className="flex top-center">
                 <div className="card">
-                    <Link to="/p1"><img src={p1}></img></Link>
+                    <Link to="/pgrkam"><img src={pgrkam}></img></Link>
                     <div className="new-font  top-margin  space">
-                        <div className="bold">SEHAT</div>
+                        <div className="bold">PGRKAM</div>
                         <div className="skills">React, Vite, Firebase, Python, Machine Learning</div>
                     </div>
                 </div>   
                 <div className="card">
-                    <Link to="/p2"><img src={p5}></img></Link>
+                    <Link to="/p1"><img src={p1}></img></Link>
                     <div className="new-font  top-margin  space">
-                        <div className="bold">ISLIFE</div>
-                        <div className="skills">React, Python, Machine Learning, OpenCV, Scikit Learn </div>
+                        <div className="bold">SEHAT</div>
+                        <div className="skills">React, Vite, Firebase, Python, Machine Learning</div>
                     </div>
                 </div>   
                 </div>      
@@ -54,14 +55,14 @@ const Landing=()=>{
                         <div className="bold">THERAPY PAL</div>
                         <div className="skills">React, Python, Machine Learning, OpenCV, Scikit Learn, Android, Kotlin</div>
                     </div>
-                </div>   
+                </div> 
                 <div className="card">
-                    <Link to="/p4"><img src={p4}></img></Link>
+                    <Link to="/p2"><img src={p5}></img></Link>
                     <div className="new-font  top-margin  space">
-                        <div className="bold">AMAZON CLONE</div>
-                        <div className="skills">React, NodeJS, MongoDB, Express</div>
+                        <div className="bold">ISLIFE</div>
+                        <div className="skills">React, Python, Machine Learning, OpenCV, Scikit Learn </div>
                     </div>
-                </div>   
+                </div>     
                 </div>    
                 <div className="flex top-center">
                 <div className="card">
@@ -96,6 +97,13 @@ const Landing=()=>{
                 </div>   
                 </div>         
                 <div className="flex top-center">
+                <div className="card">
+                    <Link to="/p4"><img src={p4}></img></Link>
+                    <div className="new-font  top-margin  space">
+                        <div className="bold">AMAZON CLONE</div>
+                        <div className="skills">React, NodeJS, MongoDB, Express</div>
+                    </div>
+                </div>   
                 <div className="card">
                     <Link to="/p9"><img src={p9}></img></Link>
                     <div className="new-font  top-margin  space">

@@ -10,6 +10,7 @@ import P6 from "./project/p6.js";
 import P7 from "./project/p7.js";
 import P9 from "./project/p9.js";
 import P10 from "./project/p10.js";
+import Pgrkam from "./project/pgrkam.js";
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/p7"element={<P7/>}></Route>
         <Route exact path="/p9"element={<P9/>}></Route>
         <Route exact path="/p10"element={<P10/>}></Route>
+        <Route exact path="/pgrkam" element={<Pgrkam/>}></Route>
       </Routes>
     </div>
   );
