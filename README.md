@@ -1,1 +1,1 @@
-Access the site here : itsvaani.tech
+Access the site here : https://itsvaani.netlify.app/
