@@ -13,6 +13,8 @@ import p8 from "../assets/p8.png"
 import p7 from "../assets/p7.png"
 import p10 from "../assets/p10.png"
 import p9 from "../assets/p9.png"
+import flatify from "../assets/flatify.png"
+import lineup from "../assets/lineup.png"
 import p6 from "../assets/p6.png"
 import Achievement from "./Achievements";
 import About from "./About";
@@ -30,12 +32,27 @@ const Landing=()=>{
                 <div className="new-font tab" id="projects">Explore my Projects</div>
             </div>
             <div className="projects">
-
+            <div className="flex top-center">
+                <div className="card">
+                    <Link to="/flatify"><img src={flatify}></img></Link>
+                    <div className="new-font  top-margin  space">
+                        <div className="bold">FLATIFY</div>
+                        <div className="skills">Node.js, Google Aunthentication, Mongodb,Socket.io</div>
+                    </div>
+                </div>   
+                <div className="card">
+                    <Link to="/lineup"><img src={lineup}></img></Link>
+                    <div className="new-font  top-margin  space">
+                        <div className="bold">LINEUP</div>
+                        <div className="skills">Node.js, Mongodb, Socket.io</div>
+                    </div>
+                </div>   
+                </div>      
                 <div className="flex top-center">
                 <div className="card">
                     <Link to="/pgrkam"><img src={pgrkam}></img></Link>
                     <div className="new-font  top-margin  space">
-                        <div className="bold">PGRKAM</div>
+                        <div className="bold">SIH 2023 :PGRKAM</div>
                         <div className="skills">React, Vite, Firebase, Python, Machine Learning</div>
                     </div>
                 </div>   
