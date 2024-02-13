@@ -14,7 +14,7 @@ const Lineup=()=>{
                 <div className="below-textp new-font content">
                 Lineup: A thrilling game of strategic connection where players leverage QR codes to track down and scan their hidden teammates, earning points and climbing the leaderboard. Uncover the power of teamwork in a race against time and deception
                 </div>
-                <Link to="https://github.com/Vaani-pathariya/Lineup-backend-public"><div className="new-font linking">Link to the project: HERE</div></Link>
+                <Link to="https://github.com/Vaani-pathariya/Lineup-backend"><div className="new-font linking">Link to the project: HERE</div></Link>
             </div>
         </div>
     )

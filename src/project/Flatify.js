@@ -14,7 +14,7 @@ const Flatify=()=>{
                 <div className="below-textp new-font content">
                 Flatify: Your Ultimate Student Housing Companion. Seamlessly connect with potential flatmates, explore hostel flats, and simplify your accommodation search. With real-time messaging and a swipe-right approach to find your perfect match, embark on a stress-free journey to your ideal living space.
                 </div>
-                <Link to="https://github.com/Vaani-pathariya/Flatmate-backend-public"><div className="new-font linking">Link to the project: HERE</div></Link>
+                <Link to="https://github.com/Vaani-pathariya/Flatmate-backend"><div className="new-font linking">Link to the project: HERE</div></Link>
             </div>
         </div>
     )
