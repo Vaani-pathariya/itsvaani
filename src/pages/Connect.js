@@ -16,7 +16,7 @@ const Connect=()=>{
             <div className="flex images">
             <Link to="https://github.com/Vaani-pathariya"><img src={github} className="image_di"></img></Link>
             <Link to="https://www.linkedin.com/in/vaani-pathariya/"><img src={linkedin} className="image_di"></img></Link>
-            <Link to="https://leetcode.com/quantumm_/"><img src={leetcode} className="image_di"></img></Link>
+            <Link to="https://leetcode.com/vaanipathariya/"><img src={leetcode} className="image_di"></img></Link>
             <Link to="https://twitter.com/PathariyaVaani"><img src={twitter} className="image_di"></img></Link>
             </div>
         </div>

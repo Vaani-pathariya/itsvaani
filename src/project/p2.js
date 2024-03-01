@@ -10,7 +10,7 @@ const P2=()=>{
             <div className="sizing">
                 <div className="changed-font sizP">ISLIFE</div>
                 <div className="below-textp new-font">Bridging the communication gap between ISL users and non-ISL users</div>
-                <img src={test} className="project-img"></img>
+                <Link to="https://github.com/Vaani-pathariya/ASL-Project-SSFT"><img src={test} className="project-img"></img></Link>
                 <div className="below-textp new-font content">Introducing "ISLife" - Empowering ISL Users<br></br>
 
 "ISLife" is a groundbreaking project addressing the communication challenges faced by Indian Sign Language (ISL) users. It offers real-time conversion of spoken language to ISL, fostering seamless communication between ISL and non-ISL users. With a user-friendly mobile app (in development phase) and web platform, ISLife ensures easy access to its services, promoting inclusivity and recognition of ISL in society.</div>
