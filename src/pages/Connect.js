@@ -12,7 +12,7 @@ const Connect=()=>{
             <div className="simple-black-connect">READY TO TRANSFORM YOUR BUISNESS ?</div>
             <img src={arrow}></img>
             <div className="changed-font-black sizo">Lets connect and work together</div>
-            <div className="email">vaanipathariya@gmail.com</div>
+            <Link to ="mailto:vaanipathariya@gmail.com"><div className="email">vaanipathariya@gmail.com</div></Link>
             <div className="flex images">
             <Link to="https://github.com/Vaani-pathariya"><img src={github} className="image_di"></img></Link>
             <Link to="https://www.linkedin.com/in/vaani-pathariya/"><img src={linkedin} className="image_di"></img></Link>

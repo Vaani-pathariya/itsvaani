@@ -19,7 +19,7 @@ const Navbar=()=>{
                 <div className="distancing"><HashLink to='#projects'>Projects</HashLink></div>
                 <div className="distancing"><HashLink to='#about'>About</HashLink></div>
                 <div className="distancing"><HashLink to='#achievements'>Achievements</HashLink></div>
-                <Link to="https://docs.google.com/document/d/1Z__ctW52pfz23cMU8gy8IPLWTGpKy9Vj5FK3lwP7Nns/edit?usp=sharing"><div className="distancing">Resume</div></Link>
+                <Link to="https://drive.google.com/file/d/1rNeTEyJc3rB57B5YioQULNWtDJ7izi2F/view?usp=sharing"><div className="distancing">Resume</div></Link>
                 <div className="connect"><HashLink to='#connect'>Let's Connect</HashLink></div>
             </div>
         </div>
